@@ -1,0 +1,130 @@
+.main-container{
+    max-width: 1920px;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 3.25rem 8.8rem 3.75rem 8.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   gap:16rem;
+   color: #707070;
+   font-size: 1.2rem;
+}
+
+.ul-nav{
+    display: flex;
+    justify-content: space-between;
+    gap:2.5rem;
+
+
+    
+}
+
+section{
+    width: 83%;
+    height: 38.3rem;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-image: url("../images/სლაიდერი3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.article-1{
+    margin: 9.5rem auto 4.6rem;
+    width: 83%;
+    /* border:2px solid red; */
+    font-size: 2.4rem;
+    color: #707070;
+    
+}
+
+.cards{
+    width: 100%;
+    height: 35rem;
+    margin-top: 4.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+
+.card{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px  rgb(182, 180, 180);
+
+}
+
+.card-img{
+    width: 100%;
+    height: 17rem;
+
+}
+
+.card-headline{
+    margin: 2rem 0.9rem;
+    font-size: 1.8rem;
+    color: #707070;
+    width: 95%;
+}
+
+.card-more{
+    width: 95%;
+    color: #707070;
+    float: right;
+    margin-top: 8.3rem;
+    /* border: 2px solid rebeccapurple; */
+    text-align: right;
+}
+
+footer{
+    width: 100%;
+    background-color: #2e2e2e;
+    color: #f8f8f8;
+    padding: 3rem 8.8rem 3rem 8.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+
+.logo{
+    filter: brightness(0) invert(1);
+    
+}
+
+
+
+.contact span{
+    font-size: 0.95rem;
+}
+
+
+.social-icons{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+
+
+
+
